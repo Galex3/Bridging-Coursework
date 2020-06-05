@@ -19,7 +19,7 @@ class Post(models.Model):
     status = models.IntegerField(choices=STATUS, default=0)
 
     class Meta:
-        ordering = ['-created_date']
+        ordering = ['-published_date']
 
     def publish(self):
         self.published_date = timezone.now()
