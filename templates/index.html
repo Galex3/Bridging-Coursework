@@ -5,40 +5,69 @@
             font-size: 18px;
         }
 
-        .masthead {
-            background: #3398E1;
-            height: auto;
-            padding-bottom: 15px;
-            box-shadow: 0 16px 48px #E3E7EB;
-            padding-top: 10px;
+        .title-text {
+            color: #212529;
+        }
+
+        .title-text:hover {
+            color: #212529;
+            text-decoration: none;
+        }
+
+        img {
+            opacity: 0.4;
+        }
+
+        .carousel-inner .carousel-item {
+            width: 100%;
+            max-height: 380px !important;
         }
     </style>
-    <header class="masthead">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class=" col-md-8 col-md-10 mx-auto">
-                    <div class="site-heading">
-                        <h3 class=" site-heading my-4 mt-3 text-white"> Welcome to my awesome Blog </h3>
-                        <p class="text-light">We Love Django As much as you do..! &nbsp
-                        </p>
-                    </div>
-                </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../media/static/img/uob1.jpg" class="d-block w-100" alt="University of Birmingham">
             </div>
+            <div class="carousel-item">
+                <img src="../media/static/img/uob2.png" class="d-block w-100" alt="University of Birmingham">
+            </div>
+            <div class="carousel-item">
+                <img src="../media/static/img/uob3.jpg" class="d-block w-100" alt="University of Birmingham">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="site-heading my-4 mt-3 text-dark">Welcome to my Blog!</h2>
+                <p class="text-dark"><b>Feel free to read some of my posts and get to know me, my degree experience so
+                    far, and much more!</b></p>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-    </header>
+    </div>
+
     <div class="container">
         <div class="row">
             <!-- Blog Entries Column -->
-            <div class="col-md-8 mt-3 left">
+            <div class="col-md-8 mt-4 left">
                 {% for post in post_list %}
                     <div class="card mb-4">
                         <div class="card-body">
-                            <h2 class="card-title">{{ post.title }}</h2>
+                            <h2 class="card-title"><a class="title-text"
+                                                      href="{% url 'post_detail' post.slug %}">{{ post.title }}</a></h2>
                             <p class="card-text text-muted h6">Written by {{ post.author }} | Published
                                 on {{ post.published_date }}</p>
                             <p class="card-text">{{ post.content|truncatewords:50 }}</p>
-                            <a href="{% url 'post_detail' post.slug %}" class="btn btn-primary">Read More &rarr;</a>
+                            <a href="{% url 'post_detail' post.slug %}" class="btn btn-dark">Read More &rarr;</a>
                         </div>
                     </div>
                 {% endfor %}
