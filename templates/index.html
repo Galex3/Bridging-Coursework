@@ -5,11 +5,7 @@
             font-size: 18px;
         }
 
-        .title-text {
-            color: #212529;
-        }
-
-        .title-text:hover {
+        .title-text, .title-text:hover {
             color: #212529;
             text-decoration: none;
         }
@@ -21,6 +17,10 @@
         .carousel-inner .carousel-item {
             width: 100%;
             max-height: 380px !important;
+        }
+
+        .page-link, .page-link:hover {
+            color: #343a40;
         }
     </style>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -75,4 +75,16 @@
             {% block sidebar %} {% include 'sidebar.html' %} {% endblock sidebar %}
         </div>
     </div>
+    {% if is_paginated %}
+        <nav aria-label="Page navigation container">
+            <ul class="pagination justify-content-center">
+                {% if page_obj.has_previous %}
+                    <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
+                {% endif %}
+                {% if page_obj.has_next %}
+                    <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    {% endif %}
 {% endblock %}
