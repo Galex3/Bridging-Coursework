@@ -128,7 +128,3 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # Bootstrap 4 Theme
 SUMMERNOTE_THEME = 'bs4'
-
-SUMMERNOTE_CONFIG = {
-    'summernote': {'lang': 'en-GB', },
-}
