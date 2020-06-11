@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'django_summernote',
     'django.contrib.sitemaps',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -128,3 +129,5 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # Bootstrap 4 Theme
 SUMMERNOTE_THEME = 'bs4'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'

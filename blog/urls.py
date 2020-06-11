@@ -14,7 +14,8 @@ info_dict = {
 
 urlpatterns = [
                   path('', views.PostList.as_view(), name='home'),
-                  path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
+                  path('<slug:slug>/', views.post_detail, name='post_detail'),
+                  #path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
                   path('sitemap.xml', sitemap,
                        {'sitemaps': {'blog': GenericSitemap(info_dict, priority=0.6)}},
                        name='django.contrib.sitemaps.views.sitemap'),
