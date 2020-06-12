@@ -35,9 +35,9 @@
                        target="_blank">Source Code</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" type="get" action=".">
+            <form name="search" class="form-inline my-2 my-lg-0" type="get" action="{% url 'search_results' %}">
                 <input id="search_box" name="search_box" class="form-control mr-sm-2" type="search" placeholder="Search"
-                       aria-label="Search">
+                       aria-label="Search" required>
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
@@ -60,5 +60,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+<script>
+    window.onload = function () {
+        const inputs = document.getElementsByTagName('input');
+        for (let i = 0; i < inputs.length; i++) {
+            if (inputs[i].type == 'search') {
+                inputs[i].onchange = function () {
+                    this.value = this.value.replace(/^\s+/, '').replace(/\s+$/, '');
+                };
+            }
+        }
+    }
+</script>
 </body>
 </html>
