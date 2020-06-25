@@ -64,7 +64,7 @@
     window.onload = function () {
         const inputs = document.getElementsByTagName('input');
         for (let i = 0; i < inputs.length; i++) {
-            if (inputs[i].type == 'search') {
+            if (inputs[i].type === 'search') {
                 inputs[i].onchange = function () {
                     this.value = this.value.replace(/^\s+/, '').replace(/\s+$/, '');
                 };
