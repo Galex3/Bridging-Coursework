@@ -10746,5 +10746,15 @@ section.resume-section .resume-section-content {
 #interests a {
     height: 5rem;
     width: 5rem;
-    font-size: 2.75em;
+    font-size: 2.5em;
+}
+
+#interests a:hover {
+    color: #fff;
+}
+
+#projects a:hover, #projects a:hover h5 {
+    border-color: #343a40;
+    background-color: #343a40;
+    color: #fff;
 }
