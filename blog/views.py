@@ -1,7 +1,6 @@
 from django.db.models import Q
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
-
 from .forms import CommentForm
 from .models import Post
 
@@ -26,6 +25,9 @@ class SearchResultsView(generic.ListView):
         return object_list
         # return Post.objects.none()
 
+
+def cv(request):
+    return render(request, 'cv.html')
 
 # class PostDetail(generic.DetailView):
 #    model = Post

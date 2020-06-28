@@ -14,3 +14,10 @@ class PostTestCase(TestCase):
         self.assertEqual(test1.status, 0)
         self.assertEqual(test1.content, 'Content test 1')
         self.assertEqual(test1.title, 'TestCase1')
+
+
+class HomePageTest(TestCase):
+
+    def test_uses_home_template(self):
+        response = self.client.get('/')
+        self.assertTemplateUsed(response, 'base.html')

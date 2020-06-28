@@ -4,3 +4,27 @@
 1593186862670	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileUePhtp"
 1593186867283	Marionette	INFO	Listening on port 56838
 1593186867339	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593187435527	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilegSmATp"
+1593187438802	Marionette	INFO	Listening on port 57017
+1593187438830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593187440645	Marionette	INFO	Stopped listening on port 57017
+1593187454798	Marionette	INFO	Stopped listening on port 56838
+1593187457175	Marionette	INFO	Stopped listening on port 56747
+1593188036847	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileSqVWiY"
+1593188040479	Marionette	INFO	Listening on port 57127
+1593188040581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593188074277	Marionette	INFO	Stopped listening on port 57127
+1593188128215	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileXFwVnX"
+1593188132181	Marionette	INFO	Listening on port 57211
+1593188132243	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593188134038	Marionette	INFO	Stopped listening on port 57211
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1593188266607	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileKvTM5l"
+1593188270355	Marionette	INFO	Listening on port 57305
+1593188270428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593188304703	Marionette	INFO	Stopped listening on port 57305
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1C0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+

@@ -16,6 +16,7 @@ info_dict = {
 urlpatterns = [
                   path('', views.PostList.as_view(), name='home'),
                   path('search/', SearchResultsView.as_view(), name='search_results'),
+                  path('cv/', views.cv, name='cv'),
                   path('<slug:slug>/', views.post_detail, name='post_detail'),
                   # path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
                   path('sitemap.xml', sitemap,
