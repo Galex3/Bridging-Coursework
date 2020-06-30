@@ -28,3 +28,276 @@
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x1C0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
 
+1593458489769	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile3iTL7x"
+1593458493358	Marionette	INFO	Listening on port 52557
+1593458493458	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593458493793	Marionette	INFO	Stopped listening on port 52557
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1593458515581	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilecr8FpE"
+1593458518678	Marionette	INFO	Listening on port 52631
+1593458518768	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593458519942	Marionette	INFO	Stopped listening on port 52631
+1593458544984	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilef5zbxO"
+1593458547759	Marionette	INFO	Listening on port 52707
+1593458547876	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593458550200	Marionette	INFO	Stopped listening on port 52707
+1593458580590	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile5tCweW"
+1593458583385	Marionette	INFO	Listening on port 52786
+1593458583472	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593458584725	Marionette	INFO	Stopped listening on port 52786
+1593458648448	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile2kwYCz"
+1593458651453	Marionette	INFO	Listening on port 52865
+1593458651511	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+1593458653902	Marionette	INFO	Stopped listening on port 52865
+1593458950864	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileNByr9g"
+1593458953967	Marionette	INFO	Listening on port 52991
+1593458954030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+1593459100025	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileHbx7B5"
+1593459102963	Marionette	INFO	Listening on port 53096
+1593459103021	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+1593459136795	Marionette	INFO	Stopped listening on port 52991
+1593459138287	Marionette	INFO	Stopped listening on port 53096
+1593459141667	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileqhvmKv"
+1593459144400	Marionette	INFO	Listening on port 53186
+1593459144440	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 35: TypeError: $(...).collapse is not a function
+1593459412003	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile0maU6O"
+1593459415047	Marionette	INFO	Listening on port 53309
+1593459415104	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+1593459447062	Marionette	INFO	Stopped listening on port 53186
+1593459534433	Marionette	INFO	Stopped listening on port 53309
+1593477411043	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile0x8Obt"
+1593477414583	Marionette	INFO	Listening on port 54053
+1593477414619	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593477416820	Marionette	INFO	Stopped listening on port 54053
+1593477421309	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilewUz7mB"
+1593477424340	Marionette	INFO	Listening on port 54137
+1593477424387	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593477425621	Marionette	INFO	Stopped listening on port 54137
+1593477463307	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileOijnGT"
+1593477466268	Marionette	INFO	Listening on port 54212
+1593477466306	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593477468115	Marionette	INFO	Stopped listening on port 54212
+1593477473670	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileg85WjK"
+1593477477096	Marionette	INFO	Listening on port 54290
+1593477477162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593477478194	Marionette	INFO	Stopped listening on port 54290
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+1593477616457	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilevgjRFm"
+1593477619305	Marionette	INFO	Listening on port 54389
+1593477619337	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593477621382	Marionette	INFO	Stopped listening on port 54389
+1593477627987	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileSG8WSa"
+1593477631632	Marionette	INFO	Listening on port 54465
+1593477631720	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+1593477635854	Marionette	INFO	Stopped listening on port 54465
+1593477642299	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileoPP4U4"
+1593477645268	Marionette	INFO	Listening on port 54548
+1593477645285	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593477648116	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilemcTZKj"
+1593477651387	Marionette	INFO	Listening on port 54624
+1593477651414	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593477653154	Marionette	INFO	Stopped listening on port 54624
+1593477703928	Marionette	INFO	Stopped listening on port 54548
+1593477884671	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile4w6NCR"
+1593477887430	Marionette	INFO	Listening on port 54723
+1593477887541	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593477891426	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile58avYv"
+1593477894875	Marionette	INFO	Listening on port 54798
+1593477894911	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593477897212	Marionette	INFO	Stopped listening on port 54798
+1593477901240	Marionette	INFO	Stopped listening on port 54723
+1593477915175	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilehwixp2"
+1593477917958	Marionette	INFO	Listening on port 54881
+1593477918060	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593477920932	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilerGSI4z"
+1593477923556	Marionette	INFO	Listening on port 54957
+1593477923619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593477925236	Marionette	INFO	Stopped listening on port 54957
+1593478199410	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileDy6uMm"
+1593478202190	Marionette	INFO	Listening on port 55051
+1593478202282	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593478205027	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile5IyQqS"
+1593478207957	Marionette	INFO	Listening on port 55126
+1593478208000	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593478209610	Marionette	INFO	Stopped listening on port 55126
+1593478213157	Marionette	INFO	Stopped listening on port 54881
+1593478217781	Marionette	INFO	Stopped listening on port 55051
+1593478226352	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile2rAyk4"
+1593478229167	Marionette	INFO	Listening on port 55202
+1593478229223	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593478231861	Marionette	INFO	Stopped listening on port 55202
+1593478236402	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilecSiSWD"
+1593478238933	Marionette	INFO	Listening on port 55278
+1593478238991	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593478241262	Marionette	INFO	Stopped listening on port 55278
+1593478274203	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofiletAfTce"
+1593478277159	Marionette	INFO	Listening on port 55351
+1593478277174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593478280087	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilenpIQH8"
+1593478282822	Marionette	INFO	Listening on port 55426
+1593478282901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593478284278	Marionette	INFO	Stopped listening on port 55426
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1593478423059	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile0Z5nSw"
+1593478425903	Marionette	INFO	Listening on port 55510
+1593478425943	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593478428935	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileuFN2XD"
+1593478432016	Marionette	INFO	Listening on port 55583
+1593478432140	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593478433535	Marionette	INFO	Stopped listening on port 55583
+1593478446827	Marionette	INFO	Stopped listening on port 55351
+1593478451152	Marionette	INFO	Stopped listening on port 55510
+1593479914970	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileqbUVDM"
+1593479918800	Marionette	INFO	Listening on port 55808
+1593479918921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593479921362	Marionette	INFO	Stopped listening on port 55808
+1593479924942	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofiledCYBr0"
+1593479928010	Marionette	INFO	Listening on port 55896
+1593479928038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593479929124	Marionette	INFO	Stopped listening on port 55896
+1593479960475	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile9Eh0iG"
+1593479963186	Marionette	INFO	Listening on port 55973
+1593479963241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593479965244	Marionette	INFO	Stopped listening on port 55973
+1593479969756	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilehuKQL9"
+1593479972276	Marionette	INFO	Listening on port 56047
+1593479972332	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593479973492	Marionette	INFO	Stopped listening on port 56047
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+1593480003804	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileVCetMe"
+1593480006491	Marionette	INFO	Listening on port 56117
+1593480006567	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593480009469	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile50Ggys"
+1593480012039	Marionette	INFO	Listening on port 56191
+1593480012144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593480013434	Marionette	INFO	Stopped listening on port 56191
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 35: TypeError: $(...).collapse is not a function
+1593480107726	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilev3fkFR"
+1593480111020	Marionette	INFO	Listening on port 56285
+1593480111109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593480115060	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileEM2yMi"
+1593480118468	Marionette	INFO	Listening on port 56366
+1593480118531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593480120097	Marionette	INFO	Stopped listening on port 56366
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1C0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1593480123272	Marionette	INFO	Stopped listening on port 56117
+1593480130004	Marionette	INFO	Stopped listening on port 56285
+1593480174147	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile1FFw10"
+1593480177092	Marionette	INFO	Listening on port 56450
+1593480177118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593480180820	Marionette	INFO	Stopped listening on port 56450
+1593480185348	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile6orlhQ"
+1593480187887	Marionette	INFO	Listening on port 56524
+1593480187917	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593480189231	Marionette	INFO	Stopped listening on port 56524
+1593482779460	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile3O7cif"
+1593482782369	Marionette	INFO	Listening on port 56757
+1593482782418	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593482783666	Marionette	INFO	Stopped listening on port 56757
+1593482789201	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile45oSQK"
+1593482791706	Marionette	INFO	Listening on port 56834
+1593482791773	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593482793119	Marionette	INFO	Stopped listening on port 56834
+1593482798651	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilee7lHEj"
+1593482801274	Marionette	INFO	Listening on port 56904
+1593482801302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593482802615	Marionette	INFO	Stopped listening on port 56904
+1593482922951	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofiledj72k6"
+1593482926066	Marionette	INFO	Listening on port 56980
+1593482926136	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593482927492	Marionette	INFO	Stopped listening on port 56980
+1593483855717	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileArYD5m"
+1593483858978	Marionette	INFO	Listening on port 57127
+1593483859000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593483861682	Marionette	INFO	Stopped listening on port 57127
+1593485717216	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileunIjD6"
+1593485720575	Marionette	INFO	Listening on port 57314
+1593485720637	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593485722397	Marionette	INFO	Stopped listening on port 57314
+1593529981633	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofilevDx3C9"
+1593529987164	Marionette	INFO	Listening on port 49928
+1593529987259	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593529989422	Marionette	INFO	Stopped listening on port 49928
+1593531183000	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileV2O8YS"
+1593531187537	Marionette	INFO	Listening on port 50187
+1593531187591	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593531189557	Marionette	INFO	Stopped listening on port 50187
+1593534331995	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileLG6EmE"
+1593534336064	Marionette	INFO	Listening on port 50457
+1593534336155	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593534339238	Marionette	INFO	Stopped listening on port 50457
+1593534397608	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileu9EyC6"
+1593534402368	Marionette	INFO	Listening on port 50547
+1593534402453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593534407449	Marionette	INFO	Stopped listening on port 50547
+1593534689060	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile8sRYHC"
+1593534693023	Marionette	INFO	Listening on port 50661
+1593534693107	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593534695482	Marionette	INFO	Stopped listening on port 50661
+1593534825111	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofile1J1quw"
+1593534829429	Marionette	INFO	Listening on port 50753
+1593534829468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: http://localhost:8000/static/js/scripts.js, line 39: TypeError: $(...).scrollspy is not a function
+1593534831494	Marionette	INFO	Stopped listening on port 50753
+1593534889115	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileJ6G71w"
+1593534892401	Marionette	INFO	Listening on port 50845
+1593534892446	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593534895534	Marionette	INFO	Stopped listening on port 50845
+1593535125182	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/z7/r6zq2zc14kbc39_rkq5yclt40000gn/T/rust_mozprofileqy81nF"
+1593535128972	Marionette	INFO	Listening on port 50949
+1593535129030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593535131215	Marionette	INFO	Stopped listening on port 50949

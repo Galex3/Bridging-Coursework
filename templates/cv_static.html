@@ -1,0 +1,290 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="Gustavo's CV"/>
+    <meta name="author" content="Gustavo Silva"/>
+    <title>Gustavo's CV</title>
+    <link rel="icon" type="image/x-icon" href="{% static "favicon.png" %}"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+          type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Gustavo Silva</span>
+        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                                             src="../media/static/img/profile.jpeg" alt="Gustavo"/></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Blog</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Page Content-->
+<div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+        <div class="resume-section-content">
+            <h1 class="mb-0">
+                Gustavo
+                <span class="text-primary">Silva</span>
+            </h1>
+            <div class="subheading mb-5">
+                Birmingham · <a href="tel:+4407784704505">07784704505</a> ·
+                <a href="mailto:gas823@student.bham.ac.uk">gas823@student.bham.ac.uk</a>
+            </div>
+            <p class="lead mb-5">Multilingual and hardworking computer science student with programming and web
+                development experience seeking to improve and increase his knowledge.</p>
+            <div class="social-icons">
+                <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/galexs/"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" target="_blank" href="https://github.com/Galex3"><i
+                        class="fab fa-github"></i></a>
+                <a class="social-icon" target="_blank" href="https://www.facebook.com/gustavo.alex1/"><i
+                        class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0"/>
+    <!-- Education-->
+    <section class="resume-section" id="education">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Education</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0 text-primary">MSci Computer Science</h3>
+                    <div class="subheading mb-3">University of Birmingham</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Bribery&Corruption
+                            game project<span class="badge badge-dark badge-pill">N/A</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">SE: Virtual
+                            Psychologist application designed in UML<span
+                                    class="badge badge-dark badge-pill">93.75%</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">AI: Maze and
+                            Obstacle Navigation with custom Lego EV3 running on LeJos and programmed in Java<span
+                                    class="badge badge-dark badge-pill">66.67%</span></li>
+                    </ul>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">October 2018 - Present</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0 text-primary">Computer Systems Management and Programming Technician</h3>
+                    <div class="subheading mb-3">Bento de Jesus Caraça Professional School (Porto Delegation)</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Condutor Seguro
+                            project<span class="badge badge-dark badge-pill">90%</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">VB.NET application
+                            to query system information and real-time use of computer's resources<span
+                                    class="badge badge-dark badge-pill">90%</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Shopping Centre
+                            app developed in C with several shops, global basket and working checkout<span
+                                    class="badge badge-dark badge-pill">90%</span></li>
+                    </ul>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">September 2014 - July 2017</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0"/>
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Experience</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0 text-primary">Web Developer</h3>
+                    <div class="subheading mb-3">Legendary People + Ideas</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Frontend and backend development</li>
+                        <li class="list-group-item">Developed websites using the Bootstrap grid, HTML5, CSS, and
+                            JavaScript and then transferred them to Wordpress to be editable in back-office
+                        </li>
+                        <li class="list-group-item">Produced a PHP script that, by using cURL and working with an API
+                            that uses RESTful guidelines and OAuth2 Framework, exports data from one website to another
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">May 2017 - June 2017</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0 text-primary">Information Security & IT Services Architecture Design</h3>
+                    <div class="subheading mb-3">Comissão de Coordenação e Desenvolvimento Regional do Norte</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Updated Service Recovery Plans, Business Continuity Plans, Disaster
+                            Recovery Plan, Contingency Plans, Risk Analysis' and Business Impact Analysis'
+                        </li>
+                        <li class="list-group-item">Produced Network Diagrams, Infrastructures and Services Lifts
+                            through Microsoft Visio
+                        </li>
+                        <li class="list-group-item">Documents were based on ITIL and the norms of the ISO 27000 series,
+                            more specifically the ISO 27001
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">January 2016 - March 2016</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0"/>
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Skills</h2>
+            <div class="subheading mb-3 text-primary">Hard Skills</div>
+            <ul class="list-inline dev-icons text-dark">
+                <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                <li class="list-inline-item"><i class="fab fa-php"></i></li>
+                <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                <li class="list-inline-item"><i class="fab fa-windows"></i></li>
+                <li class="list-inline-item"><i class="fab fa-apple"></i></li>
+                <li class="list-inline-item"><i class="fab fa-android"></i></li>
+                <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+            </ul>
+            <div class="subheading mb-3 text-primary">Soft Skills</div>
+            <ul class="list-group list-group-horizontal-xl text-center" id="soft-skills">
+                <li class="list-group-item flex-fill">Proactive</li>
+                <li class="list-group-item flex-fill">Resiliency</li>
+                <li class="list-group-item flex-fill">Teamwork</li>
+                <li class="list-group-item flex-fill">Time Management</li>
+            </ul>
+            <p></p>
+            <ul class="list-group list-group-horizontal-xl text-center" id="soft-skills">
+                <li class="list-group-item flex-fill">Leadership</li>
+                <li class="list-group-item flex-fill">Project Management</li>
+                <li class="list-group-item flex-fill">Research</li>
+                <li class="list-group-item flex-fill">Creativity</li>
+            </ul>
+        </div>
+    </section>
+    <hr class="m-0"/>
+    <!-- Projects-->
+    <section class="resume-section" id="projects">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Projects</h2>
+            <div class="list-group" id="projects">
+                <a class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Bribery&Corruption</h5>
+                        <small>January 2020 - March 2020</small>
+                    </div>
+                    <p class="mb-1">A fast-paced top-down strategy game where you, as a Mayor candidate of a small
+                        village, try to get the people's votes by bribing them. It was programmed in Java and JavaFX,
+                        supported by an H2 database and accomplished as part of the Team Project module.</p>
+                </a>
+                <a href="http://www.sensai.byethost3.com/"
+                   target="_blank" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">sensAI</h5>
+                        <small>June 2019</small>
+                    </div>
+                    <p class="mb-1">sensAI is an app and website focused on differentiated learning. Through the power
+                        of artificial intelligence, we intended to tailor education to every student's needs. It was
+                        sponsored by IBM and the University of Birmingham during The Birmingham Project.</p>
+                </a>
+                <a href="http://condutorseguro.byethost7.com/"
+                   target="_blank" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Condutor Seguro</h5>
+                        <small>October 2016 - July 2017</small>
+                    </div>
+                    <p class="mb-1">Driver's License Theory Exam software accomplished as my final course project,
+                        developed in VB.NET and supported by an SQLite database. A website was also created to promote
+                        the application and act as a download repository, and an online exam platform was also under
+                        development.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0"/>
+    <!-- Interests-->
+    <section class="resume-section" id="interests">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Interests & Languages</h2>
+            <div class="social-icons" id="interests">
+                <a class="social-icon"><i class="fas fa-theater-masks"></i></a>
+                <a class="social-icon"><i class="fas fa-gamepad"></i></a>
+                <a class="social-icon"><i class="fas fa-globe-europe"></i></a>
+                <a class="social-icon"><i class="fas fa-tv"></i></a>
+                <a class="social-icon"><i class="fas fa-code"></i></a>
+            </div>
+            <p><br/></p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-white bg-primary">
+                        <div class="card-header">Portuguese</div>
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Native Proficiency</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-dark" role="progressbar"
+                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-white bg-primary">
+                        <div class="card-header">English</div>
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Full Professional Proficiency</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                                     role="progressbar"
+                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-white bg-primary">
+                        <div class="card-header">Spanish</div>
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Limited Working Proficiency</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                                     role="progressbar"
+                                     aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 20%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Core theme JS-->
+<script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
